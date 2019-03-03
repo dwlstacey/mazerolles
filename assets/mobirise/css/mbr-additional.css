@@ -1478,16 +1478,24 @@ body {
   transition: 0.2s background ease-in-out;
   background: linear-gradient(to left, #554346, #45505b) !important;
 }
-.cid-rjGqv1XIkC {
+.cid-rjGuo93pdd {
   padding-top: 90px;
   padding-bottom: 90px;
   background-color: #ffffff;
 }
-.cid-rjGqv1XIkC .mbr-text {
-  color: #767676;
-  margin: 0;
-  padding-top: 1.5rem;
+.cid-rjGuo93pdd .title {
+  margin-bottom: 2rem;
 }
-.cid-rjGqv1XIkC div.b {
-  padding-top: 2rem;
+.cid-rjGuo93pdd .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-rjGuo93pdd a:not([href]):not([tabindex]) {
+  color: #fff;
+  border-radius: 3px;
+}
+.cid-rjGuo93pdd a.btn-white:not([href]):not([tabindex]) {
+  color: #333;
+}
+.cid-rjGuo93pdd textarea.form-control {
+  min-height: 188px;
 }
